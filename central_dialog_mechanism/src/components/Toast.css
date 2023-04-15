@@ -1,0 +1,64 @@
+.toast_container {
+  height: 50px;
+  width: 250px;
+  background-color: gray;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  animation: fadein 0.5s;
+  /* animation: fadein 0.5s, fadeout 0.5s 2.5s; */
+}
+
+.closeToastBtn {
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.success {
+  background-color: lightgreen;
+}
+
+.warning {
+  background-color: orange;
+}
+
+.error {
+  background-color: tomato;
+}
+
+/* @keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+} */
+
+@keyframes fadein {
+  from {
+    left: 0;
+    opacity: 0;
+  }
+  to {
+    left: 30px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    left: 30px;
+    opacity: 1;
+  }
+  to {
+    left: 0;
+    opacity: 0;
+  }
+}
