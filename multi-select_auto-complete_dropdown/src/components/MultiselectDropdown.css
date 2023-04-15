@@ -1,0 +1,22 @@
+.container {
+  /* border: 1px solid red; */
+  height: 200px;
+}
+
+.selected {
+  /* border: 1px solid forestgreen */
+  width: 100%;
+  height: 20px;
+}
+
+.options-div {
+  width: 100%;
+  height: 20px;
+  /* border: 1px solid palegreen; */
+  height: 150px;
+}
+
+.selected-items {
+  background-color: gainsboro;
+  padding: 4px;
+}
